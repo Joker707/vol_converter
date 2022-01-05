@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="vol_converter:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/vol_converter_jar</output-path>
+    <root id="archive" name="vol_converter.jar">
+      <element id="module-output" name="vol_converter" />
+    </root>
+  </artifact>
+</component>
