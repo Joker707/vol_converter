@@ -5,8 +5,11 @@ import java.io.InputStreamReader;
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("insert input type ('bls', 'gal' or 'l'): ");
         String inputType = bufferedReader.readLine();
+        System.out.println("insert your value: ");
         Double value = Double.parseDouble(bufferedReader.readLine());
+        System.out.println("insert output type ('bls', 'gal' or 'l'):");
         String outputType = bufferedReader.readLine();
         String fullType = inputType + " -> " + outputType;
         result(fullType, value);
